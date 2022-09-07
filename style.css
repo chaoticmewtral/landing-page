@@ -88,7 +88,7 @@ height: auto;
 display: flex;
 justify-content: center;
 align-items: center;
-flex: 1;
+flex: initial;
 }
 
 .random {
@@ -97,6 +97,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+padding: 0 100px 60px 100px;
 }
 
 .random h2 {
@@ -108,7 +109,6 @@ align-items: center;
 display: flex;
 flex-direction: row;
 justify-content: center;
-gap: 25px;
 }
 
 .info {
@@ -127,6 +127,7 @@ width: 150px;
 .subtext {
 color: #6f6f6f;
 font-size: .9em;
+align-self: center;
 }
 
 .quote {
