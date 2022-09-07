@@ -73,11 +73,12 @@ width: 150px;
 }
 
 .subtext {
-
+color: #6f6f6f;
+font-size: .9em;
 }
 
 .quote {
-
+background-color: #e5e7eb;
 }
 
 .call-to-action {
