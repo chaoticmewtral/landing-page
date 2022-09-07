@@ -87,11 +87,17 @@ background-color: #e5e7eb;
     font-weight: 100;
 }
 
-.call-to-action {
+.qa {
+    font-weight: bold;
+}
 
+.call-to-action {
+background-color: #3882f6;
+color: #f9faf8;
 }
 
 .cta-text {
+font-weight: bold;
 
 }
 
