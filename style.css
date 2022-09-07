@@ -81,6 +81,12 @@ font-size: .9em;
 background-color: #e5e7eb;
 }
 
+.qt {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
 .call-to-action {
 
 }
