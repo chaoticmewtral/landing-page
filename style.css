@@ -134,6 +134,10 @@ text-align: center;
 
 .quote {
 background-color: #e5e7eb;
+padding: 100px 220px;
+display: flex;
+flex-direction: column;
+gap: 10px;
 }
 
 .qt {
@@ -144,6 +148,7 @@ background-color: #e5e7eb;
 
 .qa {
     font-weight: bold;
+    align-self: flex-end;
 }
 
 .call-to-action {
@@ -162,7 +167,6 @@ color: #f9faf8;
 
 .call-to-action .sign-up {
     border: 1px solid #f9faf8;
-    border-radius: 25px;
 }
 
 .footer {
