@@ -10,11 +10,11 @@ color: #f9faf8;
 font-size: 24px;
 display: flex;
 justify-content: space-between;
-padding: 10px 0px 42px 0;
+padding: 10px 0 0 0;
 }
 
 .top {
-    padding: 0 100px 100px 100px;
+    padding: 0 100px;
 }
 
 .top,
@@ -60,7 +60,9 @@ a {
 .hero {
 display: flex;
 justify-content: space-between;
+align-content: center;
 gap: 42px;
+padding: 100px 0;
 }
 
 .awe-title {
