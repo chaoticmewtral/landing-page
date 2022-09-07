@@ -1,5 +1,8 @@
 body {
 font-family: Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+margin: 0;
 }
 
 .header {
@@ -105,8 +108,12 @@ color: #f9faf8;
     font-size: .9em;
 }
 
-
+.call-to-action .sign-up {
+    border: 1px solid #f9faf8;
+    border-radius: 25px;
+}
 
 .footer {
-
+font-size: .9em;
+color: #f9faf8;
 }
