@@ -19,10 +19,16 @@ padding: 10px 0px;
     padding: 0px 42px;
 }
 
-.menu,
-.awesome p {
+.awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+p {
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 100;
 }
 
 ul {
@@ -46,12 +52,15 @@ a {
 
 .hero {
 display: flex;
+justify-content: space-between;
 }
 
 .awesome h1 {
 font-weight: extra-bold;
 color: #f9faf8;
 font-size: 48px;
+padding: 0;
+margin: 0;
 }
 
 .sign-up {
@@ -62,6 +71,11 @@ color: #f9faf8;
 .img-placeholder {
 background-color: #6f6f6f;
 color: #e5e7eb;
+width: 450px;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .random {
