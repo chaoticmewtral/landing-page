@@ -16,7 +16,7 @@ padding: 10px 0px 42px 0;
 .top,
 .footer {
     background-color: #1f2937;
-    padding: 0px 42px;
+    padding: 0px 100px;
 }
 
 .awesome {
@@ -57,7 +57,7 @@ display: flex;
 justify-content: space-between;
 }
 
-.awesome h1 {
+h1 {
 font-weight: extra-bold;
 color: #f9faf8;
 font-size: 48px;
