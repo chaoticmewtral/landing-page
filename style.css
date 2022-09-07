@@ -3,6 +3,7 @@ font-family: Roboto, sans-serif;
 display: flex;
 flex-direction: column;
 margin: 0;
+justify-content: space-between;
 }
 
 .header {
@@ -78,6 +79,7 @@ background-color: #3882f6;
 color: #f9faf8;
 padding: 6px 18px;
 border-radius: 5px;
+font-size: .9em;
 }
 
 .img-placeholder {
@@ -154,15 +156,27 @@ gap: 10px;
 .call-to-action {
 background-color: #3882f6;
 color: #f9faf8;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 75px 100px;
+padding: 50px 100px;
+border-radius: 5px;
 }
 
 .cta-text {
 
 }
 
+.cta-text h3 {
+    margin: 0;
+    padding: 0;
+}
+
 .cta-text div {
     font-weight: 100;
     font-size: .9em;
+    padding-top: 3px;
 }
 
 .call-to-action .sign-up {
@@ -172,4 +186,6 @@ color: #f9faf8;
 .footer {
 font-size: .9em;
 color: #f9faf8;
+padding: 40px;
+text-align: center;
 }
